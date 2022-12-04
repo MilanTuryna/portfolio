@@ -1,0 +1,52 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    overflow-x: hidden;
+}
+
+/* utils */
+
+.br-0 {border-radius: 0!important;}
+.opacity-dark-bg {background: rgba(0,0,0,0.6);}
+.plr-32 {padding: 32px;}
+.light-hr {color:#888;}
+.head-font {font-family: Verdana;}
+
+/* headings */
+.main-heading {font-size: calc(1.3rem + .6vw)!important;}
+.second-heading {font-size: 1.25rem;}
+@media (min-width: 1200px) {
+    .main-heading {
+        font-size: 1.75rem!important;
+    }
+}
+
+/* other */
+a{word-break: break-word;}
+
+#kotvymenu .active, #kotvymenu .active:hover {
+    transition: 0.5s;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-top: 0;
+    border-color: rgba(0, 0, 0, 0.125);
+    border-top-width: 0;
+}
+
+
+.technology-item {
+    padding: 12px;
+    filter: grayscale(1.0);
+    transition: 1.5s;
+}
+
+.technology-item:hover {
+    filter: none;
+}
+
+/* resetting def. styles */
+
+strong {
+    font-weight: 600!important;
+}
