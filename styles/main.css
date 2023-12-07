@@ -24,6 +24,7 @@ body {
 
 /* other */
 a{word-break: break-word;}
+a:hover{text-decoration: none}
 
 #kotvymenu .active, #kotvymenu .active:hover {
     transition: 0.5s;
