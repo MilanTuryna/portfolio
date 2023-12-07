@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.webp");
     background-size: cover;
     background-attachment: scroll;
     overflow-x: hidden;
@@ -34,6 +34,9 @@ a{word-break: break-word;}
     border-top-width: 0;
 }
 
+.h5 {
+    font-size: 1.25rem;
+}
 
 .technology-item {
     padding: 12px;
